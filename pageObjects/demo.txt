@@ -1,0 +1,51 @@
+this.page = page;
+    // this.cross = '//*[@id="elementor-popup-modal-11619"]/div/a/i';
+    this.loginClick = '//*[@id="header"]/div/div[1]/div/div/div[3]/div/ul/li[2]/a/i';
+    this.usernameInput = '(//form[contains(@class,"form-horizontal")]/div/input)[1]';
+    this.passwordInput = '(//form[contains(@class,"form-horizontal")]/div/input)[2]';
+    this.loginButton = '(//form[contains(@class,"form-horizontal")]/div/div/button)';
+    this.validLoginValidation = '//*[@id="app"]/div[2]/div[1]/main/header/div/h1';
+    // this.errorMessage = '//*[@id="error"]';
+    // this.successMessage = ""
+
+
+    // "invalidUser": {
+      //   "invalidcredentials": {
+      //     "username": "incorrectEmail",
+      //     "password": "incorrectPassword"
+      //   },
+    
+      //   "invalidPassword": {
+      //     "username": "preranagiri28@gmail.com",
+      //     "password": "incorrectPassword"
+      //   },
+    
+      //   "invalidUsername": {
+      //     "username": "incorrectEmail",
+      //     "password": "preranagiri@123"
+      //   },
+    
+      //   "empty": {
+      //     "username": "",
+      //     "password": ""
+      //   },
+    
+      //   "emptyUser": {
+      //     "username": "",
+      //     "password": "preranagiri@1233"
+      //   },
+    
+      //   "emptyPassword": {
+      //     "username": "preranagiri28@gmail.com",
+      //     "password": ""
+      //   },
+    
+      //   "userLeadingSpace": {
+      //     "username": "   preranagiri28@gmail.com",
+      //     "password": "preranagiri@123"
+      //   },
+      //   "passwordLeadingSpace": {
+      //     "username": "preranagiri28@gmail.com",
+      //     "password": "    preranagiri@123"
+      //   }
+      // }
